@@ -1,0 +1,9 @@
+/*	BASICS
+	======
+
+	Contains generic classes
+
+*/
+.hidden {
+  position: absolute;
+  visibility: hidden; }

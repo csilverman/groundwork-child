@@ -1,0 +1,50 @@
+
+/*	SEARCH
+	======
+
+
+
+
+
+*/
+
+
+
+
+/*	CONFIG
+	------
+	Cut and paste these variables into your central _config file.
+*/
+
+
+
+/*	CODE
+	----
+	Don't trouble yourself with this.
+*/
+
+.search-form {
+	position: relative;
+	height: 2em;
+}
+.screen-reader-text {
+	@extend .hidden;
+}
+.search-form input {
+	-webkit-appearance: none;
+	border: none;
+	background: transparent;
+}
+.search-field {
+	position: absolute;
+	width: 80%;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+.search-submit {
+	position: absolute;
+	width: 20%;
+	right: 0;
+	height: 100%;
+}

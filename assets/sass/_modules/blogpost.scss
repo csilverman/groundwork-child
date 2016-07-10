@@ -1,0 +1,88 @@
+
+
+/*	Blogpost module
+	---------------
+	
+	
+*/
+
+
+/*	WRITE OUT ALL TASKS TO FINISH THE POST DESIGN */
+
+
+/*	CONFIG
+	------
+	Cut and paste these variables into your central _config file. */
+
+$post__title-font: bold 1.8em $sans-serif;
+$post__label-font: normal 1em $sans-serif;
+$post__date-font: .9em $sans-serif;
+
+
+
+/*	CODE
+	----
+	Don't trouble yourself with this.
+*/
+
+.label {
+	display: inline;
+	font: $post__label-font;
+}
+
+.post-categories,
+.post__tags {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+.post-categories li,
+.post__tags li {
+	list-style: none;
+	display: inline;
+}
+.post__date {
+	font: $post__date-font;
+}
+.post__title {
+	font: $post__title-font;
+}
+.post {
+	position: relative;
+}
+.post__catContainer,
+.post__tagsContainer {
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

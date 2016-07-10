@@ -1,0 +1,16 @@
+/*
+ Theme Name:     Groundwork Child Theme
+ Theme URI:      http://www.elegantthemes.com/gallery/foxy/
+ Description:    Groundwork Child Theme
+ Author:         Chris
+ Author URI:     http://www.csilverman.com
+ Template:       groundwork-parent
+ Version:        1.0.0
+*/
+
+@import url("../groundwork-parent/style.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+@import url("assets/css/site.css");
