@@ -8,15 +8,6 @@ define("SITE__HAS_FOOTERWIDGETS", true);
 define("CUSTOM_CSS_PATH", "/css_path/");
 
 define("SHOW_AUTHORS", false);
-define("ROOT_PATH", "/web/sites/people/chsilverman/foliotheme");
-define("URL_PATH", "/chsilverman/foliotheme");
-define("ASSETS_PATH", URL_PATH."/wp-content/themes/groundwork-child/assets");
-define("IMAGES_PATH", ASSETS_PATH."/images");
-
-
-define("INCLUDE_PATH", ROOT_PATH."/wp-content/themes/groundwork-child/assets/includes");
-
-// define("INCLUDEPATH", "/web/sites/people/chsilverman/clearwater/wp-content/themes/groundwork-child/assets/includes/");
 
 define("SITE__SHOW_SITEDESC", false);
 
@@ -30,7 +21,7 @@ define("HOMEPAGE__HAS_PRECONTENTWIDGETS", true);
 
 define("SITE__CUSTOM_CLASS_FOR_EACH_PAGE", true);
 define("SITE__HAS_NAVIGATION", true);
-
+define("SITE__GOOGLEANALYTICS_CODE", CODE);
 
 /*	Post settings
 	------------- */
@@ -45,7 +36,7 @@ define("POST__ENABLE_SUBTITLES", true);		/*	If this is enabled, then any text in
 // define("HEADER__USE_LOGO", IMAGES_PATH."/css/logo-black.svg");
 
 define("HEADER__USE_LOGO", false);
-define("HEADER__USE_INCLUDE", INCLUDE_PATH."/svg-logo.php");
+define("HEADER__USE_INCLUDE", false);
 
 
 /*	Page nav
@@ -80,6 +71,7 @@ define("COMMENT__HEADER_VERBOSE", false);
 define("POST__SHOWCATEGORIES", false);
 define("POST__SHOWTAGS", false);
 define("POST__TAGSBELOWPOST", false);
+define("POST__GROUP_METADATA", false);
 
 /*	Any post in the following category will have
 	the title of the category be displayed instead of
