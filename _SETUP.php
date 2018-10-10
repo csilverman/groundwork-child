@@ -16,12 +16,24 @@ define("HOMEPAGE__HAS_OWNSIDEBAR", false);
 define("HOMEPAGE__HAS_PRECONTENTWIDGETS", true);
 
 
+/*	In-loop content
+	Similar to Kottke's "Quick Links"
+	----------------- */
+
+define("HOMEPAGE__HAS_INLOOPCONTENT", true);
+define("HOMEPAGE__INLOOPCONTENT_AFTERPOST", 2);
+
+
 /*	Sitewide settings
 	----------------- */
+
+define("HOMEPAGE__EXCLUDE_CATEGORIES", "-11");
 
 define("SITE__CUSTOM_CLASS_FOR_EACH_PAGE", true);
 define("SITE__HAS_NAVIGATION", true);
 define("SITE__GOOGLEANALYTICS_CODE", CODE);
+
+define("SITE__UNIBAR", false);
 
 /*	Post settings
 	------------- */
@@ -72,6 +84,7 @@ define("POST__SHOWCATEGORIES", false);
 define("POST__SHOWTAGS", false);
 define("POST__TAGSBELOWPOST", false);
 define("POST__GROUP_METADATA", false);
+define("POST__READMORE_TEXT", "Continue reading");
 
 /*	Any post in the following category will have
 	the title of the category be displayed instead of
@@ -82,7 +95,7 @@ define("ASIDE_FORMAT__SPECIAL_DATE_FORMAT", "m/d/y");
 // define("CAT__USE_SPECIAL_DATE_FORMAT", "10:m/d/y,14:m/d/y");
 
 
-
+define("POST__FEATUREDIMAGE_SIZE", "large");
 
 define("POST_DATELABEL", "Posted on");
 define("POST_DATELABEL_HIDDEN", true);
