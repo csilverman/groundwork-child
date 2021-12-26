@@ -31,13 +31,13 @@ define("HOMEPAGE__EXCLUDE_CATEGORIES", "-11");
 
 define("SITE__CUSTOM_CLASS_FOR_EACH_PAGE", true);
 define("SITE__HAS_NAVIGATION", true);
-define("SITE__GOOGLEANALYTICS_CODE", CODE);
+define("SITE__GOOGLEANALYTICS_CODE", null);
 
 define("SITE__UNIBAR", false);
 
 /*	Post settings
 	------------- */
-	
+
 define("POST__ENABLE_SUBTITLES", true);		/*	If this is enabled, then any text in a post
 													title following a colon will be styled as
 													a subtitle. */
@@ -89,7 +89,7 @@ define("POST__READMORE_TEXT", "Continue reading");
 /*	Any post in the following category will have
 	the title of the category be displayed instead of
 	the post title. */
-	
+
 define("CAT__USE_NAME_OF_CAT_AS_HEADER", "10, 14");
 define("ASIDE_FORMAT__SPECIAL_DATE_FORMAT", "m/d/y");
 // define("CAT__USE_SPECIAL_DATE_FORMAT", "10:m/d/y,14:m/d/y");
